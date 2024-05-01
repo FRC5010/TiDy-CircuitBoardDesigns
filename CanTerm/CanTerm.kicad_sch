@@ -265,6 +265,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(wire
 		(pts
@@ -288,7 +370,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 86.36) (xy 93.98 86.36)
+			(xy 91.44 86.36) (xy 95.25 86.36)
 		)
 		(stroke
 			(width 0)
@@ -298,7 +380,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 85.09) (xy 93.98 86.36)
+			(xy 95.25 85.09) (xy 95.25 86.36)
 		)
 		(stroke
 			(width 0)
@@ -318,7 +400,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 76.2) (xy 93.98 76.2)
+			(xy 91.44 76.2) (xy 95.25 76.2)
 		)
 		(stroke
 			(width 0)
@@ -328,7 +410,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 76.2) (xy 93.98 77.47)
+			(xy 95.25 76.2) (xy 95.25 77.47)
 		)
 		(stroke
 			(width 0)
@@ -372,7 +454,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "FRC5010-FootprintLibrary:Molex_SL_RightAngle_Through_1x02"
 			(at 83.82 82.55 0)
 			(effects
 				(font
@@ -415,17 +497,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 93.98 81.28 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 83.82 88.9 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1832cb3-676f-41d7-8546-2d8211048a60")
-		(property "Reference" "R1"
-			(at 96.52 80.0099 0)
+		(uuid "db606fc7-9f77-4b2a-b269-e187ff568bda")
+		(property "Reference" "H1"
+			(at 86.36 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -433,8 +514,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120R"
-			(at 96.52 82.5499 0)
+		(property "Value" "MountingHole"
+			(at 86.36 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -442,8 +523,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 92.202 81.28 90)
+		(property "Footprint" "MountingHole:MountingHole_5mm"
+			(at 83.82 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -452,7 +533,71 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 81.28 0)
+			(at 83.82 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 83.82 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CanTerm"
+				(path "/cdd6529d-9484-4876-b4bb-c46d8fc72074"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1832cb3-676f-41d7-8546-2d8211048a60")
+		(property "Reference" "R1"
+			(at 97.79 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "120R"
+			(at 97.79 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 97.028 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -461,7 +606,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 93.98 81.28 0)
+			(at 95.25 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)

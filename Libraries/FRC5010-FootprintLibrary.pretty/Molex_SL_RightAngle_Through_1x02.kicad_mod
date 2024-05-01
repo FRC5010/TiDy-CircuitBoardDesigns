@@ -1,0 +1,131 @@
+(footprint "Molex_SL_RightAngle_Through_1x02"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 8 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "684397c8-e6d3-411a-b1de-17805167b938")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Molex_SL_RightAngle_Through_1x02"
+		(at 0 -7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00bd733e-d453-487b-8c7a-d6a80ffe4f00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Molex_SL_RightAngle_Through_1x02"
+		(at 0 -5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae67c3c4-ae33-42de-9418-2ec5a641beaf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -4 -11 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "135df9a4-7bce-4d97-ba75-c6826058195a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -4 -11 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb146864-dea3-436d-8828-87bae05b4299")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.25 -3.5)
+		(end -3.25 3.5)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "F.Fab")
+		(uuid "cd550ff8-e73f-4887-8687-205c648c0fcb")
+	)
+	(fp_rect
+		(start -6.795 -3.685)
+		(end 6.795 3.685)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "56372d0e-1f49-49e4-883f-d2ec5fe195b2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "26f09c10-b768-4098-b2aa-481fa0a7f717")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 6.1 1.27)
+		(size 1.81 1.81)
+		(drill 1.11)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9b00e5ab-fd6e-424e-a1a0-3f64fe30db7d")
+	)
+	(pad "2" thru_hole circle
+		(at 6.1 -1.27)
+		(size 1.81 1.81)
+		(drill 1.11)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "26fcd37f-533d-4414-be26-164e0e046b51")
+	)
+	(model "C:/repos/TiDy-CircuitBoardDesigns/Libraries/FRC5010-FootprintLibrary.pretty/Models/Molex_SL_RightAngle_Through_1x02.stp"
+		(offset
+			(xyz -1.1 0 2.9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)
